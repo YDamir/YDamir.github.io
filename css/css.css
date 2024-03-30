@@ -1,0 +1,201 @@
+main p, h1, h2 {
+    color: #7B78FF;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: url(/images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .burgerIcon {
+    width: 35px;
+    display: none;
+    margin: 0!important;
+}
+
+header .container .menu a {
+    font-size: 1.5625em;
+    text-decoration: none;
+    color: #7B78FF;
+    margin: 0px 20px;
+}
+
+header .container .menu a:hover
+{ 
+    color: #42b057;
+    font-weight: 1000;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #42b057;
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;   
+    border: 2px solid #7B78FF;
+    border-radius: 50px;
+    width: 320px;
+
+}
+header form div input[type='text'] {
+    border: none;
+    margin-right: 10px;
+}
+
+header form div input[type='submit'] {
+    background: url(images\search.png) no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;    
+    border: none;
+}
+
+header form div input[type='submit']:hover {
+    cursor: pointer;
+}
+
+footer > .container {
+    padding-bottom: 1px; 
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+footer {
+    background-image: url(/images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.figcaptionPart {
+    color: #7B78FF;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: #6b739b;
+    font-size: small;
+    margin-top: 15px;
+    width: 260px;
+}
+
+footer .right nav a {
+    font-size: 1em;
+    color: #7B78FF;
+    text-decoration: none;
+}
+
+footer .right nav a:hover {
+    color: #42b057;
+}
+
+footer form {
+    width: 150px;
+    margin-left: 150px;
+}
+
+footer form div {
+    justify-content: center;
+    padding: 5px 5px;   
+    border: 2px solid #7B78FF;
+    border-radius: 50px;
+    width: 150px;
+
+}
+footer form div input[type='text'] {
+    border: none;
+    margin-right: 10px;
+    width: 100px;
+}
+
+footer form div input[type='submit'] {
+    background: url(images\search.png) no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;    
+    border: none;
+}
+
+footer form div input[type='submit']:hover {
+    cursor: pointer;
+}
+
+footer .right > nav {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
+
+footer .right .box {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*
+<div class="d-flex">
+                    <div class="box insta"></div>
+                    <div class="box telegram"></div>
+                    <div class="box vk"></div>
+                </div>
+
+
+footer .right .insta {
+    background: url(../images/insta.png) no-repeat;
+    background-size: cover;
+    background-color: transparent;
+
+}
+
+footer .right .insta:hover {
+    background: url(/images/insta.png) no-repeat;
+    background-size: no-repeat;
+}
+*/

@@ -1,0 +1,125 @@
+/*
+>= 1200 px
+992-1199 px
+768-991 px
+576-768 px
+460-576 px
+414-460 px
+375-413 px
+320-374 px
+*/
+
+.transparent-input {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1199px) {
+    header form div {
+        width: 195px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header > .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header > .container > img {
+        margin-right:35px;
+    }
+
+    header > .container form {
+        margin-top: 20px;
+    }
+
+    header > .container form, header {
+        margin-right: 20px;
+    }
+
+    header form div {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header .menu {
+        margin: 15px 0px;
+    }
+
+    footer form div {
+        width: 120px;
+    }
+}
+
+@media  (max-width: 580px) {
+    footer form {
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    header .menu {
+        display: none;
+    }
+
+    header .burgerIcon {
+        display: inline;
+        width: 30px;
+        
+    }
+
+    header > .container > img {
+        margin-right: 110px;
+        justify-content: center;
+    }
+
+    header .container .menu a {
+        margin: 0 10px;
+        display: block;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    header .container .menu a:hover, header .container .menu a.active {
+        border: none;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        padding: 0;
+    }
+
+    footer form {
+        width: 120px;
+        margin-left: 50px;
+    }
+
+    footer .right > nav {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    footer .container {
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+    footer .right > nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer .right {
+        margin: 20px auto 0
+    }
+}
+
+@media screen and (max-width: 414px) {
+    
+    header .menu {
+        justify-content: right;
+    }
+    
+}

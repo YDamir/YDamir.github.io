@@ -1,0 +1,180 @@
+main {
+    background-image: url(/images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block1 {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu a {
+    width: 200px;
+}
+
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #7B78FF;
+    font-size: 1.75em;
+    margin-bottom: 8px; 
+    padding: 12px 25px;
+}
+
+.block1 .menu a:hover {
+    color: #42b057;
+    font-weight: bold;
+    background-image: url(/images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.block1 .items .boxes {
+    flex-wrap: wrap;
+}
+
+.block1 .items .boxes .box {
+    margin-bottom: 28px;
+}
+
+.block1 .items {
+    padding-left: 25px;
+}
+
+.block1 .items .month {
+    margin-bottom: 25px;
+}
+
+.block1 .items .month p {
+    color: #7B78FF;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.box figure figcaption {
+    padding-left: 23px;
+    color: #7B78FF;
+}
+
+.box figure figcaption p {
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+.box figure .title {
+    color: #7B78FF;
+    font-size: 18px;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.box button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-image: url(/images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #a03aff;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.box button:hover {
+    cursor: pointer;
+}
+
+.adv div p {
+    color: #7B78FF;
+    font-size: large;
+    font-weight: bold;
+    max-width: 345px;
+}
+
+.adv div figure {
+    margin: 0 50px;
+}
+
+.adv div figure figcaption {
+    color: #7B78FF;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.order-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100% auto;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.galka {
+    width: 25px;
+}
+
+.we {
+    flex-wrap: wrap;
+}
+
+.order-button {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #7600e4;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    filter: brightness(70%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #a545ff;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.order {
+    margin-left: 20px;
+}
+
+.boxes .d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxes {
+    padding: 1px;
+}
+

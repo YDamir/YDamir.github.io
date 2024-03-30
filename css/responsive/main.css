@@ -1,0 +1,44 @@
+/*
+>= 1200 px
+992-1199 px
+768-991 px
+576-768 px
+460-576 px
+414-460 px
+375-413 px
+320-374 px
+*/
+
+@media screen and (max-width: 580px) {
+   .block1 {
+    display: block;
+    text-align: center;
+    align-items: center;
+   }
+
+   .block1 .menu a {
+        margin-left: auto;
+        margin-right: auto;
+   }
+
+   .boxes {
+    display: block;
+   }
+
+   .box button {
+    width: 60%;
+   }
+}
+
+@media screen and (max-width: 365px) {
+    .box {
+        max-width: 70%;
+        font-size: 70%;
+    }
+    .box img {
+        max-width: 130%;
+        max-height: 130%;
+    }
+}
+
+
